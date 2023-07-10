@@ -1,0 +1,44 @@
+body {
+    background-image: url('./nature.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.play {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.key{
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(174, 175, 175, 0.6);
+    border-radius: 20%;
+    margin: 1rem;
+    border-color: black;
+    border: 2rem;
+}
+
+kbd{
+    font-size: xx-large;
+    display: block;
+}
+
+span{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: #2b2d30;
+}
