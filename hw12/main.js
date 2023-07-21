@@ -11,7 +11,6 @@ function checkF() {
         fetch(BASE_URL+`/films/${id}`)
         .then(response => response.json())
         .then(data => {
-            // console.log(data)
             const char = data.characters;
             char.forEach(charURL => {
                 fetch(charURL)
@@ -29,20 +28,26 @@ function checkF() {
 
 function displayCharter(character) {
     const displayInfo = document.createElement('div')
+    displayInfo.classList.add("characters")
     displayInfo.innerHTML = `
     <h2>${character.name}</h2>
     <p>BY: ${character.birth_year}</p>
     <p>Genger: ${character.gender}</p>
     <hr>
     `;
+
+    if(character.gender === "male") {
+        displayInfo.classList.add("male");
+    } else if(character.gender === "female") {
+        displayInfo.classList.add("female");
+    } else if(character.gender === "hermaphrodite") {
+        displayInfo.classList.add("hermaphrodite")
+    } else {
+        displayInfo.classList.add("n-a")
+    }
+
     document.getElementById('displayCharter').appendChild(displayInfo);
 }
-
-
-// тут ще зробити перевірку за гендером, якщо гендер = жінка => блок pink
-// якщо гендер = чоловік => блок blue
-// якщо гендер = n/a => блок silver або іншого кольору
-
 
 function getPlanets() {
     fetch(BASE_URL + `/planets/?page=${planetsPage}`)
@@ -81,5 +86,3 @@ function nextPrevButton(action) {
     planetsId.innerHTML = '';
     getPlanets()
 }
-
-
