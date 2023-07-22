@@ -1,4 +1,6 @@
 const result = document.getElementById('result');
+const idGenerator = createIdGenerator();
+const fontGenerator = newFontGenerator();
 
 function* createIdGenerator() {
     let id = 1;
@@ -7,22 +9,17 @@ function* createIdGenerator() {
     }
 }
 
-const idGenerator = createIdGenerator();
-
 function genID() {
-    result.innerHTML = ''
-    const update = idGenerator.next().value;
     const idElement = document.createElement('p');
+    const update = idGenerator.next().value;
+    result.innerHTML = ''
     idElement.textContent = `ID: ${update}`;
     result.appendChild(idElement);
+    result.classList.add('genID')
 }
 
-
-//-------------------------------------------------------------------------------------------------
-
-
 function* newFontGenerator() {
-    let size = 14;
+    let size = 30;
     while (true) {
         const click = yield size;
         if (click === "up") {
@@ -32,8 +29,6 @@ function* newFontGenerator() {
         }
     }
 }
-
-const fontGenerator = newFontGenerator();
 
 function sizeUp() {
     const size = fontGenerator.next("up").value;
