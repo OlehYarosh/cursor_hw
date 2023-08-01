@@ -1,0 +1,89 @@
+/* Стилі для контейнера компонента FirstComponents */
+.post {
+    background-color: #353535;
+    /* border: 1px solid #777777; */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3%;
+}
+  
+  /* Стилі для блока профілю */
+.profile {
+    display: flex;
+    align-items: center;
+    
+}
+  
+  /* Стилі для зображення профілю */
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+  
+  /* Стилі для імені та нікнейму */
+.profile-name, .profile-nickname {
+    margin: 0;
+    color: #ffffff;
+}
+.profile-nickname {
+    color:#888;
+    padding-left: 10px;
+}
+  
+  /* Стилі для дати посту */
+.profile-post-data {
+    font-size: 16px;
+    color: #888;
+}
+.profile p:last-child{
+    margin-left: auto;
+}
+
+
+  /* Стилі для контенту тексту */
+.text-content {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 18px;
+}
+  
+  /* Стилі для медіа-контенту (зображення) */
+.media-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* border: 1px solid #777777; */
+    border-radius: 2%;
+}
+  
+  /* Стилі для блоку з коментарями, ретвітами, лайками та переглядами */
+.bottom-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+  
+  /* Стилі для блоків коментарів, ретвітів, лайків та переглядів */
+.comments, .retweets, .likes, .views {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+  
+  /* Стилі для зображень коментарів, ретвітів, лайків та переглядів */
+.comments-img, .retweets-img, .likes-img, .views-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+  
+  /* Стилі для числа коментарів, ретвітів, лайків та переглядів */
+.bottom-post-number {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+}
+  

@@ -1,0 +1,33 @@
+/*            body, left side, ride side */
+.App {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Стилі для контейнера */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Стилі для лівого і правого сайдбарів */
+.left-sidebar, .right-sidebar {
+  width: 25%;
+  min-width: 250px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Стилі для основного контенту */
+.main-content {
+  flex-grow: 1;
+  background-color: #000000;
+  padding: 20px;
+  border: 1px solid #777777;
+}
+
+/* Стилі для заголовку і підвалу */
+header, footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+}
