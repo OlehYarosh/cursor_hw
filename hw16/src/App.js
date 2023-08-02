@@ -28,8 +28,8 @@ function App() {
         <h4>FellowshipTweets</h4>
       </header>
       
-      <div class="container">
-        <div class="left-sidebar">
+      <div className="container">
+        <div className="left-sidebar">
           <p>Головна</p>
           <p>Ознайомлення</p>
           <p>Сповіщення</p>
@@ -44,7 +44,7 @@ function App() {
           />
         </div>
 
-        <main class="main-content">
+        <main className="main-content">
           <FirstComponents  
             profileImg = {gimli}
             profileName = "Gimli"
@@ -456,7 +456,7 @@ function App() {
           />
         </main>
       
-        <div class="right-sidebar">
+        <div className="right-sidebar">
           <div className="right-sidebar-content">
             <h2>Популярне</h2>
             <div className="popular">
