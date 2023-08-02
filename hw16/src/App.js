@@ -9,7 +9,6 @@ import commentIcon from './assets/comments-icon.png';
 import retweetIcon from './assets/retweet-icon.png';
 import likeIcon from './assets/like-icon.png';
 import viewIcon from './assets/views-icon.png';
-import { SecondComponents } from './components/SecondComponents';
 
 function App() {
   return (
@@ -24,14 +23,14 @@ function App() {
           </div>
       
           <main class="main-content">
-              <SecondComponents 
+              <FirstComponents  
                 profileImg = {gimli}
                 profileName = "Gimli"
                 profileNickname = "@son_of_gloin"
                 profilePostData = "дата"
 
                 textContent = "Щойно відбулося змагання з Леголасом, хто зможе нарубати більше дров! Ельф може бути швидким, але сила гнома перемогла! #WoodChoppingChallenge #DwarfVsElf"
-                mediaContent = {null}
+                // mediaContent = {mediaContent1}
 
                 commentsImg = {commentIcon}
                 commentsNumber = "..."
@@ -67,7 +66,7 @@ function App() {
                 profilePostData = "дата"
 
                 textContent = "Спостерігати за змаганнями Гімлі та Леголаса — це чиста розвага! Тепер вони кидають виклик один одному на танці в Рівенделлі. Не можу дочекатися, щоб побачити, хто вміє рухатися! #DanceBattle #MiddleEarthParty"
-                mediaContent = {mediaContent1}
+                // mediaContent = {mediaContent1}
 
                 commentsImg = {commentIcon}
                 commentsNumber = "..."
