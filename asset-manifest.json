@@ -1,16 +1,31 @@
 {
   "files": {
-    "main.css": "/cursor_hw/hw16v2/react-deploy/static/css/main.073c9b0a.css",
-    "main.js": "/cursor_hw/hw16v2/react-deploy/static/js/main.43396561.js",
-    "static/js/787.d6cb1aba.chunk.js": "/cursor_hw/hw16v2/react-deploy/static/js/787.d6cb1aba.chunk.js",
-    "static/media/logo.svg": "/cursor_hw/hw16v2/react-deploy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/cursor_hw/hw16v2/react-deploy/static/css/main.014ff996.css",
+    "main.js": "/cursor_hw/hw16v2/react-deploy/static/js/main.713b1905.js",
+    "static/js/787.25e9fe7a.chunk.js": "/cursor_hw/hw16v2/react-deploy/static/js/787.25e9fe7a.chunk.js",
+    "static/media/gimliWarior.png": "/cursor_hw/hw16v2/react-deploy/static/media/gimliWarior.3402727712e1bba6d461.png",
+    "static/media/singingDwarves.png": "/cursor_hw/hw16v2/react-deploy/static/media/singingDwarves.af2dc35d311d2327b592.png",
+    "static/media/aragorn.jpg": "/cursor_hw/hw16v2/react-deploy/static/media/aragorn.82f1aeb1d633de25186f.jpg",
+    "static/media/gandalf.jpg": "/cursor_hw/hw16v2/react-deploy/static/media/gandalf.5024da3b64b86ad6bebf.jpg",
+    "static/media/gandalfSmile.png": "/cursor_hw/hw16v2/react-deploy/static/media/gandalfSmile.200defbae64c4b5c9fcc.png",
+    "static/media/swordAragorn.jpg": "/cursor_hw/hw16v2/react-deploy/static/media/swordAragorn.6c59ec2d2e93ccda1ff7.jpg",
+    "static/media/gandalfLaughs.jpg": "/cursor_hw/hw16v2/react-deploy/static/media/gandalfLaughs.c73a928ca8c208aa0df2.jpg",
+    "static/media/frodo.jpg": "/cursor_hw/hw16v2/react-deploy/static/media/frodo.e40d81b1c5318b206111.jpg",
+    "static/media/gimli.jpg": "/cursor_hw/hw16v2/react-deploy/static/media/gimli.3bd390ca8d230acc9e4d.jpg",
+    "static/media/logo.png": "/cursor_hw/hw16v2/react-deploy/static/media/logo.13171999eaaee702d86e.png",
+    "static/media/dancing.jpg": "/cursor_hw/hw16v2/react-deploy/static/media/dancing.b74ec65b3a5bedb92060.jpg",
+    "static/media/gandalfDancing.jpg": "/cursor_hw/hw16v2/react-deploy/static/media/gandalfDancing.4abaebb617d8f2d7235e.jpg",
+    "static/media/legolas.webp": "/cursor_hw/hw16v2/react-deploy/static/media/legolas.5cfa641a5b62232159e1.webp",
+    "static/media/drink.webp": "/cursor_hw/hw16v2/react-deploy/static/media/drink.590a0960c329c9cca648.webp",
+    "static/media/comments-icon.png": "/cursor_hw/hw16v2/react-deploy/static/media/comments-icon.137dbdb5102fac8c1742.png",
+    "static/media/views-icon.png": "/cursor_hw/hw16v2/react-deploy/static/media/views-icon.214af0f25dabbf6069e1.png",
     "index.html": "/cursor_hw/hw16v2/react-deploy/index.html",
-    "main.073c9b0a.css.map": "/cursor_hw/hw16v2/react-deploy/static/css/main.073c9b0a.css.map",
-    "main.43396561.js.map": "/cursor_hw/hw16v2/react-deploy/static/js/main.43396561.js.map",
-    "787.d6cb1aba.chunk.js.map": "/cursor_hw/hw16v2/react-deploy/static/js/787.d6cb1aba.chunk.js.map"
+    "main.014ff996.css.map": "/cursor_hw/hw16v2/react-deploy/static/css/main.014ff996.css.map",
+    "main.713b1905.js.map": "/cursor_hw/hw16v2/react-deploy/static/js/main.713b1905.js.map",
+    "787.25e9fe7a.chunk.js.map": "/cursor_hw/hw16v2/react-deploy/static/js/787.25e9fe7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.43396561.js"
+    "static/css/main.014ff996.css",
+    "static/js/main.713b1905.js"
   ]
 }
