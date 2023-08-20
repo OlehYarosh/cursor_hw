@@ -1,0 +1,21 @@
+body {
+    font-family: cursive;
+    background: linear-gradient(135deg, #040A0E, #152B3C, #345c7c, #204767, #295074);
+}
+
+h1, h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image {
+    width: auto;
+    height: 35rem;
+    border-radius: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
